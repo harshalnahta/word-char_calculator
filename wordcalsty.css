@@ -1,0 +1,116 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+   background-color: rgb(10, 99, 110);
+   background-blend-mode: color-dodge;
+
+}
+.contain{
+    display: flex;
+    margin-left: 17%;
+    margin-top: 8%;
+}
+.result{
+    margin-left: 30%;
+
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    font-weight: 800;
+    font-size: larger;
+
+}
+h3{
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    font-weight: 800;
+}
+#cal{
+    width: 50px;
+    border: none;
+    background-color: darkgoldenrod;
+}
+#cal:hover{
+    cursor: pointer;
+   color: white;
+}
+.a1{
+    font-family: sans-serif;
+    font-size: x-large;
+}
+.drp{
+    position: relative;
+  display: inline-block;
+}
+h4{
+   display: inline-block;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-weight: 800;
+    font-size: x-large; 
+   margin-left: 48%;
+   margin-top: 2%;
+}
+#id{
+    width: 23px;
+    height: 22px;
+    margin-left: 20px ;
+}
+#id:hover{
+    cursor: pointer;
+    width: 25px;
+    height: 24px;
+}
+.id:hover{
+    background-color: rgb(10, 99, 110); 
+}
+
+.top{
+    background-color: rgb(245, 155, 53);
+}
+.menu{
+    width: 40px;
+    height: 20px;
+    position: relative;
+    background-color: darkgoldenrod;
+    border: none;
+    font-family: cursive;
+    font-weight: 800;
+}
+.dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: darkolivegreen;
+        z-index: 1;
+       min-width: fit-content;
+  
+}
+.menu:hover + .dropdown-content{display: flex;}
+.dropdown-content:hover{display: flex;}
+.dropdown-content a{
+    display: block;
+    color: white;
+    padding: 12px 16px;
+    padding: 12px 16px;
+}
+a{
+    border: solid black;
+    border-radius: 5px;
+    width: fit-content;
+}
+a:hover{
+    background-color: rgb(68, 85, 37);
+}
+#abc{
+    background-color: rgb(240, 209, 35);
+    margin-top: 8%;
+    color: black;
+}
+#abc:hover{
+    background-color: rgb(111, 231, 42);;
+}
+.menu:hover{
+    cursor: pointer;
+    color: white;
+}

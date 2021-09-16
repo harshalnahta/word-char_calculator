@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>words cal</title>
+    <link rel="stylesheet" href="wordcalsty.css">
+</head>
+<body>
+<div class="top">
+  
+      <h4>Projects</h4>
+      <div class="drp">
+      <button class="menu" >menu</button>
+      
+      <div class="dropdown-content">
+        <a href="https://harshalnahta.github.io/clock/" target="_blank" style="text-decoration: none;">Digital_Clock</a>
+         <a href="https://harshalnahta.github.io/checklist.github.io/" target="_blank" style="text-decoration: none;">To_Do_List</a>
+         <a href="https://harshalnahta.github.io/Start_Animation/" style="text-decoration: none;" target="_blank">My_First_Animation</a>
+         <a href="#" style="text-decoration: none;" onclick="location.reload()">Word_Counter</a>
+      </div>
+       </div>
+   <hr></div>
+   <h3 style="text-decoration: underline; margin: 2px; padding: 2px;"><ul>Word_Counter:</ul></h3>
+    <div class="contain">
+       
+        <section>
+        <h3>ENTER YOUR TEXT HERE :</h3><br><br>
+        <textarea name="input" cols="30" rows="10" placeholder= "type here" id="abc" ></textarea><br>
+    <button onclick="calcf()" id="cal">calc</button></section>
+        <section class="result"><ul type="none">
+        <li>Total Characters = <span id="tot" class="a1">0</span></li><br>
+         <li>NO. OF Letters = <span id="lett" class="a1">0</span></li><br>
+         <li>NO. OF Words = <span id="word"class="a1">0</span></li><br>
+         <li>NO. OF Spaces = <span id="space"class="a1">0</span></li><br>
+         <li>NO. OF Lines = <span id="line"class="a1">0</span></li><br>
+         <li>NO. OF Paragraphs = <span id="para"class="a1">0</span></li><br>
+         <li>NO. OF Numeric Values = <span id="num"class="a1">0</span></li><br>
+         <li>NO. OF Other Characters = <span id="oc"class="a1">0</span></li><br>
+        </ul>
+    </section>
+    </div>
+    <p> <a class="id" href="https://github.com/harshalnahta" style="text-decoration: none; border: none;" ><img id="id" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="git" style="text-decoration: none;"></a></p>
+
+
+    <script src="wordcal.js"></script> 
+</body>
+</html>
